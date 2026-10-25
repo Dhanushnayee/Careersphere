@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix v2",
+  "description": "AI-powered full-stack job application platform with intelligent resume analysis, automated job workflows, and role-based workspaces for candidates, recruiters, and administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

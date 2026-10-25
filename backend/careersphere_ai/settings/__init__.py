@@ -1,0 +1,3 @@
+"""
+CareerSphere AI Settings Package
+"""

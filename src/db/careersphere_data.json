@@ -1,0 +1,2615 @@
+{
+  "version": 1,
+  "lastPersistedAt": "2026-10-25T10:08:03.171Z",
+  "users": [
+    {
+      "id": "user_candidate_01",
+      "email": "candidate@careersphere.ai",
+      "name": "Alex Chen",
+      "role": "candidate",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-01T10:00:00Z"
+    },
+    {
+      "id": "user_recruiter_01",
+      "email": "recruiter@synthetix.com",
+      "name": "Sarah Jenkins",
+      "role": "recruiter",
+      "companyId": "comp_synthetix",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-02T11:00:00Z"
+    },
+    {
+      "id": "user_recruiter_02",
+      "email": "david.tech@synthetix.com",
+      "name": "David Kim",
+      "role": "recruiter",
+      "companyId": "comp_synthetix",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-03T10:00:00Z"
+    },
+    {
+      "id": "user_recruiter_03",
+      "email": "lisa.hiring@synthetix.com",
+      "name": "Lisa Wang",
+      "role": "recruiter",
+      "companyId": "comp_synthetix",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-04T12:00:00Z"
+    },
+    {
+      "id": "user_recruiter_horizon",
+      "email": "recruiter@horizontech.com",
+      "name": "Tom Bradley",
+      "role": "recruiter",
+      "companyId": "comp_horizon",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "user_admin_01",
+      "email": "admin@careersphere.ai",
+      "name": "Admin Supervisor",
+      "role": "admin",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-08-15T09:00:00Z"
+    },
+    {
+      "id": "user_candidate_02",
+      "email": "elena.rostova@example.com",
+      "name": "Elena Rostova",
+      "role": "candidate",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-05T12:00:00Z"
+    },
+    {
+      "id": "user_candidate_03",
+      "email": "marcus.vance@example.com",
+      "name": "Marcus Vance",
+      "role": "candidate",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-08T14:00:00Z"
+    },
+    {
+      "id": "user_candidate_04",
+      "email": "priya.sharma@example.com",
+      "name": "Priya Sharma",
+      "role": "candidate",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-12T09:30:00Z"
+    },
+    {
+      "id": "user_candidate_05",
+      "email": "david.kim@example.com",
+      "name": "David Kim",
+      "role": "candidate",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "user_candidate_06",
+      "email": "ryan.miller@example.com",
+      "name": "Ryan Miller",
+      "role": "candidate",
+      "passwordHash": "e6092bffb4c39928139d5ee09df4e5e7dbbb2d709736b912ad9bfad33882bfb7fb2aab6f10c0ebfc3b71b797b018212bf758ed8a9b56296f922ba7a538e98971",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-18T16:20:00Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "comp_synthetix",
+      "name": "Synthetix Dynamics",
+      "slug": "synthetix-dynamics",
+      "industry": "Generative AI & Autonomous Systems",
+      "sizeRange": "201-500 employees",
+      "headquarters": "San Francisco, CA",
+      "website": "https://synthetix.ai",
+      "description": "Pioneering frontier multi-agent collaboration workflows and developer infrastructure.",
+      "isVerified": true,
+      "verificationStatus": "verified",
+      "businessEmail": "careers@synthetix.ai",
+      "workCulture": "Autonomous, research-driven engineering squads with fast experimentation cycles and open source contribution days.",
+      "benefits": [
+        "Comprehensive Health, Dental & Vision (100% covered)",
+        "$5,000 Annual Learning & Conference Budget",
+        "Flexible Remote/Hybrid Schedule & Ergonomic Setup Stipend",
+        "401(k) 5% Match with Immediate Vesting",
+        "Generous Parental Leave (16 Weeks)",
+        "Quarterly Wellness & Mental Health Recharges"
+      ],
+      "registrationNumber": "DE-LLC-8829104",
+      "taxId": "XX-XXXX8921",
+      "contactPhone": "+1 (415) 890-4321",
+      "linkedinUrl": "https://linkedin.com/company/synthetix-ai",
+      "twitterUrl": "https://twitter.com/synthetix_ai",
+      "verifiedAt": "2026-08-25T14:30:00Z",
+      "reviewedByAdminId": "user_admin_01",
+      "createdAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "comp_horizon",
+      "name": "Horizon Cloud Labs",
+      "slug": "horizon-cloud-labs",
+      "industry": "Enterprise Cloud & Distributed Systems",
+      "sizeRange": "50-200 employees",
+      "headquarters": "New York, NY",
+      "website": "https://horizoncloud.io",
+      "description": "High-reliability cloud data layers and real-time streaming infrastructure.",
+      "isVerified": true,
+      "createdAt": "2026-08-22T14:00:00Z"
+    },
+    {
+      "id": "comp_stripe",
+      "name": "Stripe",
+      "slug": "stripe",
+      "industry": "Financial Infrastructure & Payments",
+      "sizeRange": "5000+ employees",
+      "headquarters": "San Francisco, CA",
+      "website": "https://stripe.com",
+      "description": "Financial infrastructure platform powering internet business transactions globally.",
+      "isVerified": true,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "comp_anthropic",
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "industry": "AI Safety & Large Language Models",
+      "sizeRange": "500-1000 employees",
+      "headquarters": "San Francisco, CA",
+      "website": "https://anthropic.com",
+      "description": "AI research and safety company building reliable, steerable frontier systems.",
+      "isVerified": true,
+      "createdAt": "2026-02-14T08:00:00Z"
+    },
+    {
+      "id": "comp_snowflake",
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "industry": "Cloud Data Platform",
+      "sizeRange": "5000+ employees",
+      "headquarters": "Bozeman, MT (Remote)",
+      "website": "https://snowflake.com",
+      "description": "Mobilizing global enterprise data with the Data Cloud architecture.",
+      "isVerified": true,
+      "createdAt": "2026-02-18T10:00:00Z"
+    },
+    {
+      "id": "comp_scale",
+      "name": "Scale AI",
+      "slug": "scale-ai",
+      "industry": "AI Infrastructure & Data Annotation",
+      "sizeRange": "1000-5000 employees",
+      "headquarters": "San Francisco, CA",
+      "website": "https://scale.com",
+      "description": "Data platform infrastructure powering next-generation generative AI models.",
+      "isVerified": true,
+      "createdAt": "2026-03-01T11:00:00Z"
+    },
+    {
+      "id": "comp_automattic",
+      "name": "Automattic",
+      "slug": "automattic",
+      "industry": "Web Publishing & Distributed Open Source",
+      "sizeRange": "1000-5000 employees",
+      "headquarters": "Fully Distributed (Global)",
+      "website": "https://automattic.com",
+      "description": "Building open web publishing engines including WordPress.com and WooCommerce.",
+      "isVerified": true,
+      "createdAt": "2026-03-12T09:00:00Z"
+    },
+    {
+      "id": "comp_twosigma",
+      "name": "Two Sigma",
+      "slug": "two-sigma",
+      "industry": "Quantitative Engineering & Algorithmic Trading",
+      "sizeRange": "1000-5000 employees",
+      "headquarters": "New York, NY",
+      "website": "https://twosigma.com",
+      "description": "Applying machine learning, distributed computing, and data science to financial markets.",
+      "isVerified": true,
+      "createdAt": "2026-03-20T14:00:00Z"
+    },
+    {
+      "id": "comp_datadog",
+      "name": "Datadog",
+      "slug": "datadog",
+      "industry": "Cloud Observability & Security",
+      "sizeRange": "5000+ employees",
+      "headquarters": "New York, NY",
+      "website": "https://datadoghq.com",
+      "description": "Observability and security monitoring platform for cloud-scale applications.",
+      "isVerified": true,
+      "createdAt": "2026-04-05T10:00:00Z"
+    },
+    {
+      "id": "comp_jpmc",
+      "name": "JPMorgan Chase & Co.",
+      "slug": "jpmorgan-chase",
+      "industry": "Banking & Financial Technology",
+      "sizeRange": "10000+ employees",
+      "headquarters": "New York, NY",
+      "website": "https://jpmorganchase.com",
+      "description": "Global leader in financial services, enterprise banking, and investment management systems.",
+      "isVerified": true,
+      "createdAt": "2026-04-10T12:00:00Z"
+    },
+    {
+      "id": "comp_salesforce",
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "industry": "Enterprise CRM & Cloud Computing",
+      "sizeRange": "10000+ employees",
+      "headquarters": "San Francisco, CA",
+      "website": "https://salesforce.com",
+      "description": "Customer Relationship Management cloud platform and enterprise Java ecosystems.",
+      "isVerified": true,
+      "createdAt": "2026-04-15T15:00:00Z"
+    },
+    {
+      "id": "comp_goldman",
+      "name": "Goldman Sachs",
+      "slug": "goldman-sachs",
+      "industry": "Investment Banking & Trading Systems",
+      "sizeRange": "10000+ employees",
+      "headquarters": "New York, NY",
+      "website": "https://goldmansachs.com",
+      "description": "Global financial institution building high-resilience enterprise transaction systems.",
+      "isVerified": true,
+      "createdAt": "2026-04-22T11:00:00Z"
+    },
+    {
+      "id": "comp_google",
+      "name": "Google",
+      "slug": "google",
+      "industry": "Internet & Cloud Technology",
+      "sizeRange": "10000+ employees",
+      "headquarters": "Mountain View, CA",
+      "website": "https://google.com/careers",
+      "description": "Organizing the world’s information and making it universally accessible and useful.",
+      "isVerified": true,
+      "createdAt": "2026-05-01T08:00:00Z"
+    },
+    {
+      "id": "comp_vercel",
+      "name": "Vercel",
+      "slug": "vercel",
+      "industry": "Frontend Cloud & Web Frameworks",
+      "sizeRange": "500-1000 employees",
+      "headquarters": "San Francisco, CA (Remote)",
+      "website": "https://vercel.com",
+      "description": "Creators of Next.js, building frontend cloud infrastructure for the web.",
+      "isVerified": true,
+      "createdAt": "2026-05-10T09:00:00Z"
+    },
+    {
+      "id": "comp_cloudflare",
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "industry": "Edge Networking & Cyber Security",
+      "sizeRange": "1000-5000 employees",
+      "headquarters": "San Francisco, CA",
+      "website": "https://cloudflare.com",
+      "description": "Global cloud platform that delivers network services to businesses worldwide.",
+      "isVerified": true,
+      "createdAt": "2026-05-15T11:00:00Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_01",
+      "companyId": "comp_synthetix",
+      "recruiterId": "user_recruiter_01",
+      "title": "Senior AI Systems Architect",
+      "department": "Frontier Engineering",
+      "location": "San Francisco, CA (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 175000,
+      "salaryMax": 220000,
+      "salaryCurrency": "USD",
+      "description": "Lead the architecture and production deployment of high-throughput generative AI copilots, multi-agent pipelines, and distributed vector data layers.",
+      "requirements": [
+        "5+ years professional experience building production Python distributed systems.",
+        "Deep hands-on experience with Celery, Redis, and message broker architectures.",
+        "Proficiency in TypeScript, modern React, and clean architectural design.",
+        "Familiarity with vector databases (pgvector, Pinecone) and LLM tool calling."
+      ],
+      "skillsRequired": [
+        "Python",
+        "Django REST Framework",
+        "PyTorch",
+        "Vector Databases",
+        "Kubernetes",
+        "Docker"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-11-30",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Greenhouse",
+      "directApplyUrl": "https://boards.greenhouse.io/synthetix/jobs/01",
+      "partnerAts": "Greenhouse Partner API",
+      "applicantsCount": 28,
+      "createdAt": "2026-10-07T10:00:00Z"
+    },
+    {
+      "id": "job_02",
+      "companyId": "comp_horizon",
+      "recruiterId": "user_recruiter_01",
+      "title": "Full-Stack Software Engineer (Python & React)",
+      "department": "Core Platform",
+      "location": "New York, NY (Hybrid)",
+      "workplaceType": "Hybrid",
+      "employmentType": "Full-time",
+      "salaryMin": 140000,
+      "salaryMax": 175000,
+      "salaryCurrency": "USD",
+      "description": "Build enterprise-grade REST APIs and interactive data visualization dashboards connecting enterprise telemetry to cloud databases.",
+      "requirements": [
+        "3+ years full-stack development experience with Python (Django or FastAPI) and React.",
+        "Solid relational database schema design skills (PostgreSQL) and migration management.",
+        "Experience writing clean, maintainable TypeScript and unit tests."
+      ],
+      "skillsRequired": [
+        "Django REST Framework",
+        "TypeScript",
+        "React 19",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "minExperienceYears": 3,
+      "deadline": "2026-12-15",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Lever",
+      "directApplyUrl": "https://jobs.lever.co/horizon/jobs/02",
+      "partnerAts": "Lever Postings API",
+      "applicantsCount": 42,
+      "createdAt": "2026-10-05T12:00:00Z"
+    },
+    {
+      "id": "job_03",
+      "companyId": "comp_anthropic",
+      "recruiterId": "user_recruiter_01",
+      "title": "Machine Learning Operations (MLOps) Lead",
+      "department": "AI Infrastructure",
+      "location": "Austin, TX (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 165000,
+      "salaryMax": 215000,
+      "salaryCurrency": "USD",
+      "description": "Scale model evaluation clusters, automated safety benchmarks, and low-latency inference endpoints across multi-cloud environments.",
+      "requirements": [
+        "Strong expertise in Terraform, Kubernetes, and automated CI/CD for ML models.",
+        "Proficiency in Python, PyTorch, and distributed inference runtimes.",
+        "Hands-on experience deploying containerized workloads with Docker."
+      ],
+      "skillsRequired": [
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "PyTorch",
+        "CI/CD",
+        "Terraform"
+      ],
+      "minExperienceYears": 4,
+      "deadline": "2026-11-25",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Indeed",
+      "directApplyUrl": "https://indeed.com/viewjob?jk=anthropic_mlops_03",
+      "partnerAts": "Indeed Quick Apply",
+      "applicantsCount": 19,
+      "createdAt": "2026-10-04T15:00:00Z"
+    },
+    {
+      "id": "job_04",
+      "companyId": "comp_stripe",
+      "recruiterId": "user_recruiter_01",
+      "title": "Staff Python Backend & Distributed Systems Engineer",
+      "department": "Payments Core",
+      "location": "San Francisco, CA (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 180000,
+      "salaryMax": 235000,
+      "salaryCurrency": "USD",
+      "description": "Design and operate mission-critical payment orchestration engines processing hundreds of billions in volume with five-nines reliability.",
+      "requirements": [
+        "6+ years developing high-throughput distributed systems in Python or Go.",
+        "Mastery of relational database locking, PostgreSQL indexing, and Redis caching.",
+        "Experience with asynchronous event loops, Celery / task brokers, and Docker containerization."
+      ],
+      "skillsRequired": [
+        "Python",
+        "PostgreSQL",
+        "Redis",
+        "Celery",
+        "Docker",
+        "FastAPI"
+      ],
+      "minExperienceYears": 6,
+      "deadline": "2026-12-20",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "LinkedIn",
+      "directApplyUrl": "https://linkedin.com/jobs/view/stripe-staff-python-04",
+      "partnerAts": "LinkedIn Easy Apply",
+      "applicantsCount": 64,
+      "createdAt": "2026-10-09T08:00:00Z"
+    },
+    {
+      "id": "job_05",
+      "companyId": "comp_snowflake",
+      "recruiterId": "user_recruiter_01",
+      "title": "Senior Data Platform & Python Engineer",
+      "department": "Data Cloud Core",
+      "location": "San Jose, CA (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 170000,
+      "salaryMax": 210000,
+      "salaryCurrency": "USD",
+      "description": "Build scalable data ingestion pipelines and vector indexing workflows connecting enterprise data lakes to real-time query engines.",
+      "requirements": [
+        "5+ years experience building data-intensive microservices in Python.",
+        "Strong expertise in PostgreSQL, Docker, Redis, and vector search systems.",
+        "Track record building robust RESTful interfaces and data pipelines."
+      ],
+      "skillsRequired": [
+        "Python",
+        "PostgreSQL",
+        "Redis",
+        "Vector Databases",
+        "Docker",
+        "Kubernetes"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-12-10",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Wellfound",
+      "directApplyUrl": "https://wellfound.com/jobs/snowflake-data-python-05",
+      "partnerAts": "Wellfound Direct",
+      "applicantsCount": 31,
+      "createdAt": "2026-10-08T11:00:00Z"
+    },
+    {
+      "id": "job_06",
+      "companyId": "comp_scale",
+      "recruiterId": "user_recruiter_01",
+      "title": "Full-Stack AI Application Engineer (Python + React 19)",
+      "department": "GenAI Applications",
+      "location": "San Francisco, CA (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 160000,
+      "salaryMax": 200000,
+      "salaryCurrency": "USD",
+      "description": "Craft intuitive human-in-the-loop interfaces and rapid Python FastAPI backends powering automated model evaluation suites.",
+      "requirements": [
+        "Deep hands-on experience with Python, FastAPI/Django, React 19, and TypeScript.",
+        "Experience with vector similarity search and LLM orchestration frameworks.",
+        "Solid understanding of PostgreSQL and Redis."
+      ],
+      "skillsRequired": [
+        "Python",
+        "FastAPI",
+        "React 19",
+        "TypeScript",
+        "Vector Databases",
+        "PostgreSQL"
+      ],
+      "minExperienceYears": 4,
+      "deadline": "2026-11-28",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "RemoteOK",
+      "directApplyUrl": "https://remoteok.com/remote-jobs/scale-fullstack-ai-06",
+      "partnerAts": "RemoteOK Instant Apply",
+      "applicantsCount": 53,
+      "createdAt": "2026-10-07T14:00:00Z"
+    },
+    {
+      "id": "job_07",
+      "companyId": "comp_automattic",
+      "recruiterId": "user_recruiter_01",
+      "title": "Lead Django & Python Systems Architect",
+      "department": "Global Cloud Systems",
+      "location": "Worldwide (Fully Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 165000,
+      "salaryMax": 205000,
+      "salaryCurrency": "USD",
+      "description": "Architect distributed web systems, API gateways, and asynchronous background worker clusters powering hundreds of millions of sites.",
+      "requirements": [
+        "5+ years architecting large-scale applications with Django REST Framework.",
+        "Demonstrated expertise in Celery, Redis queue optimization, and PostgreSQL.",
+        "Strong culture of open communication in fully distributed environments."
+      ],
+      "skillsRequired": [
+        "Python",
+        "Django REST Framework",
+        "Celery",
+        "Redis",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-12-31",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Glassdoor",
+      "directApplyUrl": "https://glassdoor.com/job-listing/automattic-django-architect-07",
+      "partnerAts": "Workday Connect",
+      "applicantsCount": 47,
+      "createdAt": "2026-10-06T16:00:00Z"
+    },
+    {
+      "id": "job_08",
+      "companyId": "comp_twosigma",
+      "recruiterId": "user_recruiter_01",
+      "title": "Quantitative Python & Distributed Systems Engineer",
+      "department": "Alpha Research Platform",
+      "location": "New York, NY (Hybrid)",
+      "workplaceType": "Hybrid",
+      "employmentType": "Full-time",
+      "salaryMin": 190000,
+      "salaryMax": 250000,
+      "salaryCurrency": "USD",
+      "description": "Engineer high-throughput Python calculation grids, caching fabrics, and real-time data pipelines for quantitative modeling.",
+      "requirements": [
+        "Exceptional Python software engineering skills with concurrency and multiprocessing.",
+        "Extensive experience with Redis, PostgreSQL, and Linux performance tuning.",
+        "Familiarity with FastAPI and automated data validation."
+      ],
+      "skillsRequired": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "Celery"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-12-15",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "LinkedIn",
+      "directApplyUrl": "https://linkedin.com/jobs/view/twosigma-quant-python-08",
+      "partnerAts": "LinkedIn Easy Apply",
+      "applicantsCount": 38,
+      "createdAt": "2026-10-05T09:00:00Z"
+    },
+    {
+      "id": "job_09",
+      "companyId": "comp_datadog",
+      "recruiterId": "user_recruiter_01",
+      "title": "Senior Python Microservices Engineer",
+      "department": "Cloud Telemetry",
+      "location": "New York, NY (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 155000,
+      "salaryMax": 195000,
+      "salaryCurrency": "USD",
+      "description": "Scale ingestion microservices handling billions of metrics per minute using Python, OpenAPI specifications, and containerized clusters.",
+      "requirements": [
+        "4+ years building production backend APIs in Python (FastAPI / Django REST).",
+        "Solid experience with Docker, Kubernetes, and PostgreSQL.",
+        "Passion for developer tooling and high-resilience systems."
+      ],
+      "skillsRequired": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "OpenAPI / Swagger"
+      ],
+      "minExperienceYears": 4,
+      "deadline": "2026-11-20",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Lever",
+      "directApplyUrl": "https://jobs.lever.co/datadog/python-engineer-09",
+      "partnerAts": "Lever Postings API",
+      "applicantsCount": 29,
+      "createdAt": "2026-10-04T12:00:00Z"
+    },
+    {
+      "id": "job_10",
+      "companyId": "comp_jpmc",
+      "recruiterId": "user_recruiter_01",
+      "title": "Enterprise Java & Spring Boot Architect",
+      "department": "Global Corporate Banking",
+      "location": "New York, NY (Hybrid)",
+      "workplaceType": "Hybrid",
+      "employmentType": "Full-time",
+      "salaryMin": 170000,
+      "salaryMax": 215000,
+      "salaryCurrency": "USD",
+      "description": "Architect enterprise banking transaction backends utilizing Java 21, Spring Boot microservices, Kafka event streams, and Oracle relational stores.",
+      "requirements": [
+        "7+ years professional experience in Java and Spring Boot ecosystem.",
+        "Deep expertise in Hibernate, JPA, Oracle Database, and Apache Kafka.",
+        "Strong background in banking compliance, ACID transactions, and enterprise microservices."
+      ],
+      "skillsRequired": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Oracle",
+        "Hibernate",
+        "Kafka"
+      ],
+      "minExperienceYears": 7,
+      "deadline": "2026-12-28",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "LinkedIn",
+      "directApplyUrl": "https://linkedin.com/jobs/view/jpmc-java-architect-10",
+      "partnerAts": "LinkedIn Easy Apply",
+      "applicantsCount": 88,
+      "createdAt": "2026-10-03T10:00:00Z"
+    },
+    {
+      "id": "job_11",
+      "companyId": "comp_salesforce",
+      "recruiterId": "user_recruiter_01",
+      "title": "Senior Java Cloud Platform Developer",
+      "department": "CRM Core Engine",
+      "location": "Seattle, WA (Hybrid)",
+      "workplaceType": "Hybrid",
+      "employmentType": "Full-time",
+      "salaryMin": 160000,
+      "salaryMax": 200000,
+      "salaryCurrency": "USD",
+      "description": "Develop multi-tenant cloud services utilizing Java, Spring Cloud, Maven, and AWS infrastructure for global enterprise customers.",
+      "requirements": [
+        "5+ years professional Java software development experience.",
+        "Proficiency with Spring Boot, Spring Cloud, and AWS cloud primitives.",
+        "Experience tuning JVM memory and garbage collection for high-throughput services."
+      ],
+      "skillsRequired": [
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "Kubernetes",
+        "Maven",
+        "JVM Tuning"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-12-05",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Indeed",
+      "directApplyUrl": "https://indeed.com/viewjob?jk=salesforce_java_11",
+      "partnerAts": "Indeed Quick Apply",
+      "applicantsCount": 52,
+      "createdAt": "2026-10-02T13:00:00Z"
+    },
+    {
+      "id": "job_12",
+      "companyId": "comp_goldman",
+      "recruiterId": "user_recruiter_01",
+      "title": "Java High-Throughput Trading Systems Engineer",
+      "department": "Securities Technology",
+      "location": "Dallas, TX (On-site)",
+      "workplaceType": "On-site",
+      "employmentType": "Full-time",
+      "salaryMin": 175000,
+      "salaryMax": 225000,
+      "salaryCurrency": "USD",
+      "description": "Build sub-millisecond market execution engines using low-latency Core Java, non-blocking I/O, multithreading, and distributed SQL.",
+      "requirements": [
+        "5+ years hands-on Core Java development with lock-free concurrency and ring buffers.",
+        "Solid understanding of Java memory models, Spring Boot, and SQL optimization.",
+        "Experience in financial exchange or algorithmic trading software."
+      ],
+      "skillsRequired": [
+        "Java",
+        "Spring Boot",
+        "Multithreading",
+        "SQL",
+        "Cassandra",
+        "Low Latency"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-11-22",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Glassdoor",
+      "directApplyUrl": "https://glassdoor.com/job-listing/goldman-java-trading-12",
+      "partnerAts": "Workday Connect",
+      "applicantsCount": 44,
+      "createdAt": "2026-10-01T15:00:00Z"
+    },
+    {
+      "id": "job_13",
+      "companyId": "comp_google",
+      "recruiterId": "user_recruiter_01",
+      "title": "Principal Java & Distributed Systems Engineer",
+      "department": "Cloud Spanner Core",
+      "location": "Mountain View, CA (Hybrid)",
+      "workplaceType": "Hybrid",
+      "employmentType": "Full-time",
+      "salaryMin": 200000,
+      "salaryMax": 270000,
+      "salaryCurrency": "USD",
+      "description": "Design distributed consistency algorithms, gRPC interfaces, and global transactional storage engines written in Java and C++.",
+      "requirements": [
+        "7+ years building planetary-scale distributed storage or database engines.",
+        "Extensive experience with Java concurrency, gRPC, and Protocol Buffers.",
+        "Deep understanding of Paxos/Raft consensus and ACID transaction semantics."
+      ],
+      "skillsRequired": [
+        "Java",
+        "Distributed Systems",
+        "gRPC",
+        "Protocol Buffers",
+        "Cloud Spanner",
+        "C++"
+      ],
+      "minExperienceYears": 7,
+      "deadline": "2026-12-18",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Google Careers",
+      "directApplyUrl": "https://careers.google.com/jobs/results/spanner-java-13",
+      "partnerAts": "Google Careers Direct",
+      "applicantsCount": 110,
+      "createdAt": "2026-09-30T10:00:00Z"
+    },
+    {
+      "id": "job_14",
+      "companyId": "comp_vercel",
+      "recruiterId": "user_recruiter_01",
+      "title": "Staff Frontend Architect (React 19 & Next.js)",
+      "department": "Web Ecosystem",
+      "location": "San Francisco, CA (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 180000,
+      "salaryMax": 230000,
+      "salaryCurrency": "USD",
+      "description": "Shape the next generation of web developer experience, React Server Components, server actions, and frontend performance primitives.",
+      "requirements": [
+        "6+ years mastery of TypeScript, React 19, Next.js, and browser performance.",
+        "Deep experience building component design systems with Tailwind CSS.",
+        "Active contributor to open-source developer tooling."
+      ],
+      "skillsRequired": [
+        "React 19",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Frontend Architecture"
+      ],
+      "minExperienceYears": 6,
+      "deadline": "2026-12-30",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "RemoteOK",
+      "directApplyUrl": "https://remoteok.com/remote-jobs/vercel-frontend-architect-14",
+      "partnerAts": "RemoteOK Instant Apply",
+      "applicantsCount": 76,
+      "createdAt": "2026-10-08T15:00:00Z"
+    },
+    {
+      "id": "job_15",
+      "companyId": "comp_cloudflare",
+      "recruiterId": "user_recruiter_01",
+      "title": "Senior Cloud Infrastructure & Kubernetes Engineer",
+      "department": "Edge Compute Infrastructure",
+      "location": "Austin, TX (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 165000,
+      "salaryMax": 210000,
+      "salaryCurrency": "USD",
+      "description": "Deploy and maintain global bare-metal Kubernetes clusters, automated service meshes, and edge container runtimes across 300+ cities.",
+      "requirements": [
+        "5+ years managing production Kubernetes, Docker, and Linux kernel networking.",
+        "Proficiency in Terraform, Go, or Python for infrastructure automation.",
+        "Experience with Prometheus, Grafana, and zero-trust security postures."
+      ],
+      "skillsRequired": [
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Go",
+        "Python",
+        "Linux"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-12-08",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Wellfound",
+      "directApplyUrl": "https://wellfound.com/jobs/cloudflare-k8s-15",
+      "partnerAts": "Greenhouse Partner API",
+      "applicantsCount": 41,
+      "createdAt": "2026-10-06T11:00:00Z"
+    },
+    {
+      "id": "job_16",
+      "companyId": "comp_horizon",
+      "recruiterId": "user_recruiter_01",
+      "title": "Principal Product Designer (AI Workspaces)",
+      "department": "Product & Design",
+      "location": "Seattle, WA (Remote)",
+      "workplaceType": "Remote",
+      "employmentType": "Full-time",
+      "salaryMin": 150000,
+      "salaryMax": 190000,
+      "salaryCurrency": "USD",
+      "description": "Craft intuitive human-AI collaboration interfaces for next-generation talent acquisition teams and job discovery workflows.",
+      "requirements": [
+        "5+ years leading SaaS product design systems, user research, and wireframe prototyping.",
+        "Experience designing complex data dashboards and multi-step workflows."
+      ],
+      "skillsRequired": [
+        "Figma",
+        "Design Systems",
+        "User Research",
+        "Frontend Architecture",
+        "Prototyping"
+      ],
+      "minExperienceYears": 5,
+      "deadline": "2026-12-01",
+      "status": "active",
+      "moderationStatus": "approved",
+      "portal": "Glassdoor",
+      "directApplyUrl": "https://glassdoor.com/job-listing/horizon-design-16",
+      "partnerAts": "External Career Portal (Manual Handoff)",
+      "applicantsCount": 35,
+      "createdAt": "2026-10-02T16:00:00Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_01",
+      "referenceNumber": "APP-2026-7721",
+      "jobId": "job_02",
+      "candidateId": "user_candidate_01",
+      "resumeId": "res_01",
+      "resumeSnapshot": {
+        "id": "res_01",
+        "fileName": "Alex_Chen_Principal_Engineer_Resume.pdf",
+        "atsScore": 88,
+        "extractedSkills": [
+          "Python",
+          "Django REST Framework",
+          "FastAPI",
+          "React 19",
+          "PostgreSQL",
+          "Docker",
+          "Redis"
+        ],
+        "summary": "Senior Full-Stack & Python AI Systems Architect with 6+ years production experience."
+      },
+      "coverLetter": "I am excited to apply for the Senior Python & Distributed Systems Engineer position at Synthetix Dynamics. My expertise with distributed task queues, FastAPI services, and low-latency PostgreSQL indexing will allow me to deliver immediate value.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Years of production experience with Python microservices?",
+          "answer": "6+ years designing high-throughput services with Django REST and FastAPI."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Authorized to work without sponsorship?",
+          "answer": "Yes, authorized to work in the US without current or future sponsorship."
+        },
+        {
+          "questionId": "q3",
+          "questionText": "Notice period duration?",
+          "answer": "2 weeks standard notice period."
+        }
+      ],
+      "stage": "Interview Scheduled",
+      "matchScore": 88,
+      "notes": [
+        "Candidate demonstrated solid background in Django REST and React 19."
+      ],
+      "tags": [
+        "Interview Stage"
+      ],
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-08T14:30:00Z",
+          "actor": "Candidate",
+          "note": "Application submitted directly via CareerSphere"
+        },
+        {
+          "stage": "Under Review",
+          "timestamp": "2026-10-08T18:00:00Z",
+          "actor": "Synthetix Talent Team",
+          "note": "Resume screened and approved for technical phone screen"
+        },
+        {
+          "stage": "Interview Scheduled",
+          "timestamp": "2026-10-09T11:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Technical Screen scheduled for 45 minutes on Google Meet"
+        }
+      ],
+      "followUpTasks": [
+        {
+          "id": "tsk_01",
+          "text": "Review Synthetix API architecture documentation",
+          "dueDate": "2026-10-20",
+          "completed": true,
+          "createdAt": "2026-10-09T11:00:00Z"
+        },
+        {
+          "id": "tsk_02",
+          "text": "Prepare questions about their distributed task queue and scaling model",
+          "dueDate": "2026-10-22",
+          "completed": false,
+          "createdAt": "2026-10-09T11:00:00Z"
+        }
+      ],
+      "appliedAt": "2026-10-08T14:30:00Z",
+      "updatedAt": "2026-10-09T11:00:00Z",
+      "jobTitle": "Senior Python & Distributed Systems Engineer",
+      "companyName": "Horizon Cloud Labs",
+      "companyId": "comp_horizon"
+    },
+    {
+      "id": "app_02",
+      "referenceNumber": "APP-2026-9043",
+      "jobId": "job_01",
+      "candidateId": "user_candidate_01",
+      "resumeId": "res_01",
+      "resumeSnapshot": {
+        "id": "res_01",
+        "fileName": "Alex_Chen_Principal_Engineer_Resume.pdf",
+        "atsScore": 94,
+        "extractedSkills": [
+          "Python",
+          "FastAPI",
+          "Docker",
+          "PostgreSQL",
+          "Redis",
+          "Vector Databases",
+          "PyTorch"
+        ],
+        "summary": "Senior Full-Stack & Python AI Systems Architect with 6+ years production experience."
+      },
+      "coverLetter": "I am applying for the Principal AI Architect role at Synthetix Dynamics. My background in vector embeddings and multi-agent coordination makes this role an ideal match.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Have you deployed RAG pipelines to production?",
+          "answer": "Yes, scaled embedding retrieval and semantic search over 2M documents."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Available for hybrid in San Francisco?",
+          "answer": "Yes, based in San Francisco and comfortable with 2 days on-site."
+        }
+      ],
+      "stage": "Under Review",
+      "matchScore": 94,
+      "notes": [
+        "High alignment with multi-agent architecture requirements."
+      ],
+      "internalNotes": [
+        {
+          "id": "in_01",
+          "applicationId": "app_02",
+          "authorId": "user_recruiter_01",
+          "authorName": "Sarah Jenkins",
+          "authorEmail": "recruiter@synthetix.com",
+          "text": "Alex demonstrates strong Python and Celery background. GitHub profile shows active contributions.",
+          "createdAt": "2026-10-10T11:00:00Z"
+        }
+      ],
+      "tags": [
+        "Culture Fit",
+        "Fast Track"
+      ],
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-09T16:00:00Z",
+          "actor": "Candidate",
+          "note": "Direct portal submission."
+        },
+        {
+          "stage": "Under Review",
+          "timestamp": "2026-10-10T09:30:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Engineering leadership reviewing GitHub repositories and project portfolio."
+        }
+      ],
+      "followUpTasks": [
+        {
+          "id": "tsk_03",
+          "text": "Update portfolio demo link for AI Agent workflow",
+          "dueDate": "2026-10-24",
+          "completed": false,
+          "createdAt": "2026-10-10T09:30:00Z"
+        }
+      ],
+      "appliedAt": "2026-10-09T16:00:00Z",
+      "updatedAt": "2026-10-10T09:30:00Z",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyName": "Synthetix Dynamics",
+      "companyId": "comp_synthetix"
+    },
+    {
+      "id": "app_03",
+      "referenceNumber": "APP-2026-9044",
+      "jobId": "job_01",
+      "candidateId": "user_candidate_02",
+      "resumeId": "res_02",
+      "resumeSnapshot": {
+        "id": "res_02",
+        "fileName": "Elena_Rostova_Staff_Architect_Resume.pdf",
+        "atsScore": 96,
+        "extractedSkills": [
+          "Python",
+          "Django REST Framework",
+          "Go",
+          "Kubernetes",
+          "Docker",
+          "Vector Databases",
+          "PostgreSQL",
+          "Redis",
+          "PyTorch"
+        ],
+        "summary": "Staff Backend & Distributed Systems Architect with 8+ years designing high-throughput microservices."
+      },
+      "coverLetter": "I am excited to bring my 8+ years architecting distributed vector indices at Scale Systems to Synthetix Dynamics.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Have you deployed RAG pipelines to production?",
+          "answer": "Yes, designed distributed vector index cluster serving 15k QPS."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Available for hybrid in San Francisco?",
+          "answer": "Yes, living in San Francisco."
+        }
+      ],
+      "stage": "Shortlisted",
+      "matchScore": 96,
+      "notes": [
+        "Top tier candidate with Stanford MS and Scale Systems experience."
+      ],
+      "internalNotes": [
+        {
+          "id": "in_02",
+          "applicationId": "app_03",
+          "authorId": "user_recruiter_01",
+          "authorName": "Sarah Jenkins",
+          "authorEmail": "recruiter@synthetix.com",
+          "text": "Top recommendation from VP Engineering. Advance directly to technical screen round.",
+          "createdAt": "2026-10-11T14:30:00Z"
+        }
+      ],
+      "tags": [
+        "Top Candidate",
+        "High Priority"
+      ],
+      "isTalentPooled": true,
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-10T08:00:00Z",
+          "actor": "Elena Rostova",
+          "note": "Direct submission."
+        },
+        {
+          "stage": "Under Review",
+          "timestamp": "2026-10-10T11:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Screened by recruiting."
+        },
+        {
+          "stage": "Shortlisted",
+          "timestamp": "2026-10-11T14:30:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Shortlisted for hiring manager loop."
+        }
+      ],
+      "appliedAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-11T14:30:00Z",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyName": "Synthetix Dynamics",
+      "companyId": "comp_synthetix"
+    },
+    {
+      "id": "app_04",
+      "referenceNumber": "APP-2026-9045",
+      "jobId": "job_01",
+      "candidateId": "user_candidate_03",
+      "resumeId": "res_03",
+      "resumeSnapshot": {
+        "id": "res_03",
+        "fileName": "Marcus_Vance_Resume.pdf",
+        "atsScore": 84,
+        "extractedSkills": [
+          "Python",
+          "Django REST Framework",
+          "FastAPI",
+          "TypeScript",
+          "React 19",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "summary": "Full-Stack Software Developer with 5 years building scalable web applications with React 19 and FastAPI."
+      },
+      "coverLetter": "Interested in contributing to your frontier systems engineering squad.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Have you deployed RAG pipelines to production?",
+          "answer": "Familiar with embeddings and vector concepts; eager to deepen hands-on production depth."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Available for hybrid in San Francisco?",
+          "answer": "Currently based in Seattle, willing to relocate for the right role."
+        }
+      ],
+      "stage": "Submitted",
+      "matchScore": 84,
+      "notes": [
+        "Solid full stack experience, needs assessment on vector datastores."
+      ],
+      "tags": [
+        "Quick Screen"
+      ],
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-12T10:15:00Z",
+          "actor": "Marcus Vance",
+          "note": "Submitted application."
+        }
+      ],
+      "appliedAt": "2026-10-12T10:15:00Z",
+      "updatedAt": "2026-10-12T10:15:00Z",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyName": "Synthetix Dynamics",
+      "companyId": "comp_synthetix"
+    },
+    {
+      "id": "app_05",
+      "referenceNumber": "APP-2026-9046",
+      "jobId": "job_01",
+      "candidateId": "user_candidate_04",
+      "resumeId": "res_04",
+      "resumeSnapshot": {
+        "id": "res_04",
+        "fileName": "Priya_Sharma_Resume.pdf",
+        "atsScore": 91,
+        "extractedSkills": [
+          "Python",
+          "Kubernetes",
+          "Docker",
+          "PyTorch",
+          "Vector Databases",
+          "Terraform",
+          "PostgreSQL",
+          "AWS"
+        ],
+        "summary": "Cloud and AI infrastructure engineer with 4+ years orchestrating Kubernetes clusters."
+      },
+      "coverLetter": "Passionate about GPU scaling and Kubernetes orchestration for enterprise LLM workloads.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Have you deployed RAG pipelines to production?",
+          "answer": "Yes, optimized TensorRT inference containers and pgvector microservices."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Available for hybrid in San Francisco?",
+          "answer": "Willing to travel to SF for hybrid cadence."
+        }
+      ],
+      "stage": "Assessment",
+      "matchScore": 91,
+      "notes": [
+        "Assessment sent for Kubernetes infrastructure take-home."
+      ],
+      "tags": [
+        "Strong Match"
+      ],
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-11T13:00:00Z",
+          "actor": "Priya Sharma",
+          "note": "Direct submission."
+        },
+        {
+          "stage": "Under Review",
+          "timestamp": "2026-10-12T09:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Reviewed resume."
+        },
+        {
+          "stage": "Assessment",
+          "timestamp": "2026-10-13T10:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Dispatched technical take-home challenge."
+        }
+      ],
+      "appliedAt": "2026-10-11T13:00:00Z",
+      "updatedAt": "2026-10-13T10:00:00Z",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyName": "Synthetix Dynamics",
+      "companyId": "comp_synthetix"
+    },
+    {
+      "id": "app_06",
+      "referenceNumber": "APP-2026-9047",
+      "jobId": "job_01",
+      "candidateId": "user_candidate_05",
+      "resumeId": "res_05",
+      "resumeSnapshot": {
+        "id": "res_05",
+        "fileName": "David_Kim_Resume.pdf",
+        "atsScore": 95,
+        "extractedSkills": [
+          "Python",
+          "Django REST Framework",
+          "PyTorch",
+          "Vector Databases",
+          "Kubernetes",
+          "Docker",
+          "RAG Architecture",
+          "PostgreSQL"
+        ],
+        "summary": "Machine learning architect with 9+ years delivering production LLM agents and RAG systems."
+      },
+      "coverLetter": "Excited to discuss principal system design for Synthetix agent runtimes.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Have you deployed RAG pipelines to production?",
+          "answer": "Yes, scaled multi-agent copilot framework across 50 enterprise customers."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Available for hybrid in San Francisco?",
+          "answer": "Yes, located in San Francisco."
+        }
+      ],
+      "stage": "Offer Extended",
+      "matchScore": 95,
+      "notes": [
+        "Offer letter dispatched after outstanding performance across all 4 interview rounds."
+      ],
+      "internalNotes": [
+        {
+          "id": "in_03",
+          "applicationId": "app_06",
+          "authorId": "user_recruiter_01",
+          "authorName": "Sarah Jenkins",
+          "authorEmail": "recruiter@synthetix.com",
+          "text": "Offer extended at $215k base + equity package. Candidate evaluating terms.",
+          "createdAt": "2026-10-15T16:00:00Z"
+        }
+      ],
+      "tags": [
+        "Top Candidate",
+        "Offer In Flight"
+      ],
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-01T10:00:00Z",
+          "actor": "David Kim",
+          "note": "Direct submission."
+        },
+        {
+          "stage": "Shortlisted",
+          "timestamp": "2026-10-03T11:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Shortlisted."
+        },
+        {
+          "stage": "Interview Scheduled",
+          "timestamp": "2026-10-06T14:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Technical interviews completed."
+        },
+        {
+          "stage": "Offer Extended",
+          "timestamp": "2026-10-15T16:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Formal written offer extended."
+        }
+      ],
+      "appliedAt": "2026-10-01T10:00:00Z",
+      "updatedAt": "2026-10-15T16:00:00Z",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyName": "Synthetix Dynamics",
+      "companyId": "comp_synthetix"
+    },
+    {
+      "id": "app_07",
+      "referenceNumber": "APP-2026-9048",
+      "jobId": "job_01",
+      "candidateId": "user_candidate_06",
+      "resumeId": "res_06",
+      "resumeSnapshot": {
+        "id": "res_06",
+        "fileName": "Ryan_Miller_Resume.pdf",
+        "atsScore": 68,
+        "extractedSkills": [
+          "JavaScript",
+          "Node.js",
+          "Python",
+          "SQLite",
+          "Git"
+        ],
+        "summary": "Junior developer with 1.5 years experience."
+      },
+      "coverLetter": "Applying for the senior systems role.",
+      "screeningResponses": [
+        {
+          "questionId": "q1",
+          "questionText": "Have you deployed RAG pipelines to production?",
+          "answer": "No, but I have read articles about it."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Available for hybrid in San Francisco?",
+          "answer": "Remote preferred."
+        }
+      ],
+      "stage": "Rejected",
+      "matchScore": 68,
+      "rejectionReason": "Lacks required experience in distributed systems and vector database architectures (role requires 5+ years, candidate has 1.5 years).",
+      "notes": [
+        "Candidate lacks senior distributed systems requirements."
+      ],
+      "tags": [
+        "Junior Level"
+      ],
+      "statusTimeline": [
+        {
+          "stage": "Submitted",
+          "timestamp": "2026-10-14T11:00:00Z",
+          "actor": "Ryan Miller",
+          "note": "Direct submission."
+        },
+        {
+          "stage": "Rejected",
+          "timestamp": "2026-10-15T10:00:00Z",
+          "actor": "Sarah Jenkins",
+          "note": "Role requires 5+ years production distributed systems experience."
+        }
+      ],
+      "appliedAt": "2026-10-14T11:00:00Z",
+      "updatedAt": "2026-10-15T10:00:00Z",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyName": "Synthetix Dynamics",
+      "companyId": "comp_synthetix"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res_01",
+      "candidateId": "user_candidate_01",
+      "title": "Alex_Chen_Principal_Engineer_Resume.pdf",
+      "fileName": "Alex_Chen_Principal_Engineer_Resume.pdf",
+      "fileSizeBytes": 248000,
+      "fileFormat": "PDF",
+      "extractedText": "Alex Chen\nSan Francisco, CA | candidate@careersphere.ai | +1 (555) 234-5678 | github.com/alexchen\n\nSUMMARY\nAccomplished Full-Stack & AI Systems Architect with 6+ years designing scalable distributed backends, RESTful APIs, and modern React user interfaces. Proven track record scaling Python/Django applications and integrating LLM-powered services.\n\nTECHNICAL SKILLS\nLanguages: Python, TypeScript, JavaScript, SQL, Bash\nFrameworks & Libraries: Django, Django REST Framework, React 19, FastAPI, Tailwind CSS, Express\nDatabases & Cache: PostgreSQL, Redis, Vector DBs (Pinecone, pgvector), SQLite\nInfrastructure: Docker, Kubernetes, Celery, AWS, CI/CD GitHub Actions\n\nEXPERIENCE\nAether Cloud Systems — Lead Full-Stack Systems Engineer (2022 - Present)\n• Architected microservices with Django REST Framework and PostgreSQL, reducing API p99 latency by 38%.\n• Implemented Celery and Redis distributed queues processing 250,000 asynchronous tasks daily.\n• Engineered responsive frontend with React 19 and Tailwind CSS, increasing user engagement by 42%.\n\nNexus Software Labs — Software Engineer (2020 - 2022)\n• Built Python services and optimized database queries, reducing execution time by 45%.\n• Integrated third-party OAuth, Stripe billing webhooks, and Elasticsearch log indexing.\n\nEDUCATION\nB.S. in Computer Science — University of California, Berkeley (2020)",
+      "atsScore": 88,
+      "parsingStatus": "PARSED",
+      "isScanned": false,
+      "isPrimary": true,
+      "createdAt": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "res_02",
+      "candidateId": "user_candidate_02",
+      "title": "Elena_Rostova_Staff_Architect_Resume.pdf",
+      "fileName": "Elena_Rostova_Staff_Architect_Resume.pdf",
+      "fileSizeBytes": 312000,
+      "fileFormat": "PDF",
+      "extractedText": "Elena Rostova\nSan Francisco, CA | elena.rostova@example.com | +1 (555) 345-6789\n\nSUMMARY\nStaff Backend & Distributed Systems Architect with 8+ years designing high-throughput microservices, Paxos consensus layers, and distributed vector embeddings. Extensive production experience with Python Django REST, PyTorch, Kubernetes, and pgvector.\n\nTECHNICAL SKILLS\nPython, Django REST Framework, Go, Kubernetes, Docker, Vector Databases (pgvector, Pinecone), PostgreSQL, Redis, PyTorch, Distributed Systems, Microservices\n\nEXPERIENCE\nScale Systems — Staff Backend Engineer (2021 - Present)\n• Designed distributed vector index cluster serving 15k QPS with sub-20ms p99 latency.\n• Orchestrated Kubernetes cluster deployments for multi-tenant GPU workloads.\n\nEDUCATION\nM.S. in Computer Science — Stanford University (2018)",
+      "atsScore": 96,
+      "parsingStatus": "PARSED",
+      "isScanned": false,
+      "isPrimary": true,
+      "createdAt": "2026-09-10T10:00:00Z"
+    },
+    {
+      "id": "res_03",
+      "candidateId": "user_candidate_03",
+      "title": "Marcus_Vance_Resume.pdf",
+      "fileName": "Marcus_Vance_Resume.pdf",
+      "fileSizeBytes": 210000,
+      "fileFormat": "PDF",
+      "extractedText": "Marcus Vance\nSeattle, WA | marcus.vance@example.com | +1 (555) 456-7890\n\nSUMMARY\nFull-Stack Software Developer with 5 years building scalable web applications with React 19, TypeScript, and FastAPI.\n\nTECHNICAL SKILLS\nPython, Django REST Framework, FastAPI, TypeScript, React 19, Docker, PostgreSQL\n\nEXPERIENCE\nCloudWave — Senior Full-Stack Developer (2021 - Present)\n• Built React 19 application frontend with Tailwind CSS and sub-100ms render speeds.\n• Created FastAPI microservices processing 2M events/day.\n\nEDUCATION\nB.S. in Computer Science — University of Washington (2021)",
+      "atsScore": 84,
+      "parsingStatus": "PARSED",
+      "isScanned": false,
+      "isPrimary": true,
+      "createdAt": "2026-09-12T11:00:00Z"
+    },
+    {
+      "id": "res_04",
+      "candidateId": "user_candidate_04",
+      "title": "Priya_Sharma_Resume.pdf",
+      "fileName": "Priya_Sharma_Resume.pdf",
+      "fileSizeBytes": 285000,
+      "fileFormat": "PDF",
+      "extractedText": "Priya Sharma\nAustin, TX | priya.sharma@example.com | +1 (555) 567-8901\n\nSUMMARY\nCloud and AI infrastructure engineer with 4+ years orchestrating Kubernetes clusters and ML model serving pipelines.\n\nTECHNICAL SKILLS\nPython, Kubernetes, Docker, PyTorch, Vector Databases, Terraform, PostgreSQL, AWS\n\nEXPERIENCE\nApex AI — MLOps Engineer (2022 - Present)\n• Automated Kubernetes Helm charts for model serving.\n• Reduced inference latency by 35% with TensorRT.\n\nEDUCATION\nB.S. in Electrical & Computer Engineering — Georgia Tech (2022)",
+      "atsScore": 91,
+      "parsingStatus": "PARSED",
+      "isScanned": false,
+      "isPrimary": true,
+      "createdAt": "2026-09-15T09:00:00Z"
+    },
+    {
+      "id": "res_05",
+      "candidateId": "user_candidate_05",
+      "title": "David_Kim_Resume.pdf",
+      "fileName": "David_Kim_Resume.pdf",
+      "fileSizeBytes": 330000,
+      "fileFormat": "PDF",
+      "extractedText": "David Kim\nSan Francisco, CA | david.kim@example.com | +1 (555) 678-9012\n\nSUMMARY\nMachine learning architect with 9+ years delivering production LLM agents, RAG systems, and high-throughput vector infrastructure.\n\nTECHNICAL SKILLS\nPython, Django REST Framework, PyTorch, Vector Databases, Kubernetes, Docker, RAG Architecture, PostgreSQL\n\nEXPERIENCE\nNeuraNet — Principal Architect (2020 - Present)\n• Architected multi-agent copilot framework deployed across 50 enterprise clients.\n• Scaled vector retrieval engine over 10M embeddings.\n\nEDUCATION\nB.S. & M.Eng. in Computer Science — MIT (2017)",
+      "atsScore": 95,
+      "parsingStatus": "PARSED",
+      "isScanned": false,
+      "isPrimary": true,
+      "createdAt": "2026-09-16T14:00:00Z"
+    },
+    {
+      "id": "res_06",
+      "candidateId": "user_candidate_06",
+      "title": "Ryan_Miller_Resume.pdf",
+      "fileName": "Ryan_Miller_Resume.pdf",
+      "fileSizeBytes": 180000,
+      "fileFormat": "PDF",
+      "extractedText": "Ryan Miller\nDenver, CO | ryan.miller@example.com | +1 (555) 789-0123\n\nSUMMARY\nEnthusiastic software developer with 1.5 years experience with Node.js and basic Python scripts.\n\nTECHNICAL SKILLS\nJavaScript, Node.js, Python, SQLite, Git\n\nEXPERIENCE\nLocal Soft — Junior Developer (2025 - Present)\n• Wrote CRUD endpoints in Node.js Express.\n• Maintained unit tests.\n\nEDUCATION\nB.S. in Information Technology — Colorado State University (2025)",
+      "atsScore": 68,
+      "parsingStatus": "PARSED",
+      "isScanned": false,
+      "isPrimary": true,
+      "createdAt": "2026-09-20T16:00:00Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "int_01",
+      "applicationId": "app_sample_01",
+      "candidateId": "user_candidate_01",
+      "candidateName": "Alex Chen",
+      "candidateEmail": "candidate@careersphere.ai",
+      "candidateHeadline": "Senior Full-Stack & Python AI Systems Architect",
+      "jobId": "job_01",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyId": "comp_synthetix",
+      "companyName": "Synthetix Dynamics",
+      "location": "San Francisco, CA (Remote)",
+      "recruiterId": "user_recruiter_01",
+      "roundName": "Round 1: Technical Screening",
+      "roundNumber": 1,
+      "scheduledAt": "2026-10-25T17:00:00Z",
+      "endAt": "2026-10-25T17:45:00Z",
+      "durationMinutes": 45,
+      "timeZone": "America/Los_Angeles",
+      "interviewType": "video",
+      "meetingUrl": "https://meet.google.com/syn-tech-01",
+      "interviewerName": "Sarah Jenkins",
+      "interviewerRole": "Head of Technical Talent Acquisition",
+      "interviewers": [
+        {
+          "id": "user_recruiter_01",
+          "name": "Sarah Jenkins",
+          "email": "recruiter@synthetix.com",
+          "role": "Lead Recruiter"
+        }
+      ],
+      "candidateInstructions": "Please join 5 minutes early. We will discuss Python async concurrency, pgvector architecture, and past distributed system designs.",
+      "internalNotes": "Top priority candidate. Resume matches 94% on required skills.",
+      "status": "confirmed",
+      "candidateConfirmed": true,
+      "feedbackStatus": "pending",
+      "notes": "Technical screening confirmed.",
+      "preparationNotes": {
+        "id": "prep_01",
+        "interviewId": "int_01",
+        "questionsToAsk": [
+          "How does Synthetix handle p99 latency spikes during batch ingestion?",
+          "What is the on-call rotation and deployment cadence for core microservices?"
+        ],
+        "topicsToRevise": [
+          "PostgreSQL EXPLAIN ANALYZE & B-Tree index tuning",
+          "Redis Sentinel vs Cluster failover handling"
+        ],
+        "privateReflections": "Feeling confident about the distributed systems questions. Need to refresh exact Celery task visibility timeout behavior.",
+        "confidenceRating": 4,
+        "updatedAt": "2026-10-16T14:00:00Z"
+      }
+    },
+    {
+      "id": "int_02",
+      "applicationId": "app_03",
+      "candidateId": "user_candidate_02",
+      "candidateName": "Elena Rostova",
+      "candidateEmail": "elena.rostova@example.com",
+      "candidateHeadline": "Staff Backend & Distributed Systems Architect",
+      "jobId": "job_01",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyId": "comp_synthetix",
+      "companyName": "Synthetix Dynamics",
+      "location": "San Francisco, CA (Remote)",
+      "recruiterId": "user_recruiter_01",
+      "roundName": "Round 2: System Design Architecture",
+      "roundNumber": 2,
+      "scheduledAt": "2026-10-27T18:00:00Z",
+      "endAt": "2026-10-27T19:00:00Z",
+      "durationMinutes": 60,
+      "timeZone": "America/Los_Angeles",
+      "interviewType": "video",
+      "meetingUrl": "https://meet.google.com/syn-sys-02",
+      "interviewerName": "Sarah Jenkins",
+      "interviewerRole": "Head of Technical Talent Acquisition",
+      "interviewers": [
+        {
+          "id": "user_recruiter_01",
+          "name": "Sarah Jenkins",
+          "email": "recruiter@synthetix.com",
+          "role": "Lead Recruiter"
+        }
+      ],
+      "candidateInstructions": "Interactive system design session using our virtual whiteboard.",
+      "internalNotes": "Candidate excelled in screening round. Assess consensus protocol depth.",
+      "status": "scheduled",
+      "candidateConfirmed": false,
+      "feedbackStatus": "pending",
+      "notes": "System design architecture round."
+    },
+    {
+      "id": "int_03",
+      "applicationId": "app_05",
+      "candidateId": "user_candidate_04",
+      "candidateName": "Priya Sharma",
+      "candidateEmail": "priya.sharma@example.com",
+      "candidateHeadline": "AI Infrastructure & MLOps Specialist",
+      "jobId": "job_01",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyId": "comp_synthetix",
+      "companyName": "Synthetix Dynamics",
+      "location": "Austin, TX (Hybrid)",
+      "recruiterId": "user_recruiter_01",
+      "roundName": "Round 1: Coding & Infrastructure Review",
+      "roundNumber": 1,
+      "scheduledAt": "2026-10-24T15:00:00Z",
+      "endAt": "2026-10-24T15:45:00Z",
+      "durationMinutes": 45,
+      "timeZone": "America/Chicago",
+      "interviewType": "video",
+      "meetingUrl": "https://meet.google.com/syn-infra-03",
+      "interviewerName": "Sarah Jenkins",
+      "interviewerRole": "Head of Technical Talent Acquisition",
+      "interviewers": [
+        {
+          "id": "user_recruiter_01",
+          "name": "Sarah Jenkins",
+          "email": "recruiter@synthetix.com",
+          "role": "Lead Recruiter"
+        }
+      ],
+      "status": "reschedule_requested",
+      "candidateConfirmed": false,
+      "feedbackStatus": "pending",
+      "rescheduleRequest": {
+        "id": "resched_03",
+        "interviewId": "int_03",
+        "candidateReason": "Conflict with company-wide cloud migration window.",
+        "proposedTime": "2026-10-28T16:00:00Z",
+        "status": "pending",
+        "requestedAt": "2026-10-20T10:00:00Z"
+      },
+      "notes": "Awaiting recruiter review of candidate reschedule request."
+    },
+    {
+      "id": "int_04",
+      "applicationId": "app_06",
+      "candidateId": "user_candidate_05",
+      "candidateName": "David Kim",
+      "candidateEmail": "david.kim@example.com",
+      "candidateHeadline": "Principal AI & Machine Learning Architect",
+      "jobId": "job_01",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyId": "comp_synthetix",
+      "companyName": "Synthetix Dynamics",
+      "location": "San Francisco, CA",
+      "recruiterId": "user_recruiter_01",
+      "roundName": "Round 4: Executive Leadership & Culture",
+      "roundNumber": 4,
+      "scheduledAt": "2026-10-14T17:00:00Z",
+      "endAt": "2026-10-14T18:00:00Z",
+      "durationMinutes": 60,
+      "timeZone": "America/Los_Angeles",
+      "interviewType": "video",
+      "meetingUrl": "https://meet.google.com/syn-exec-04",
+      "interviewerName": "Sarah Jenkins",
+      "interviewerRole": "Head of Technical Talent Acquisition",
+      "interviewers": [
+        {
+          "id": "user_recruiter_01",
+          "name": "Sarah Jenkins",
+          "email": "recruiter@synthetix.com",
+          "role": "Lead Recruiter"
+        }
+      ],
+      "status": "completed",
+      "candidateConfirmed": true,
+      "feedbackStatus": "submitted",
+      "notes": "Candidate completed final round. Unanimous advance recommendation."
+    }
+  ],
+  "candidateProfiles": [
+    [
+      "user_candidate_01",
+      {
+        "userId": "user_candidate_01",
+        "fullName": "Alex Chen",
+        "headline": "Senior Full-Stack & Python AI Systems Architect",
+        "phone": "+1 (555) 234-5678",
+        "location": "San Francisco, CA (Remote Eligible)",
+        "bio": "Full-stack software engineer with 6+ years specializing in Python Django REST, FastAPI, React 19, distributed systems, and generative AI copilot integrations.",
+        "targetRole": "Senior Python & AI Systems Architect",
+        "experienceYears": 6.5,
+        "desiredSalaryMin": 165000,
+        "workplacePreference": "Remote",
+        "portfolioUrl": "https://alexchen.dev",
+        "githubUrl": "https://github.com/alexchen",
+        "linkedinUrl": "https://linkedin.com/in/alexchen-eng",
+        "skills": [
+          "Python",
+          "Django REST Framework",
+          "FastAPI",
+          "TypeScript",
+          "React 19",
+          "PostgreSQL",
+          "Docker",
+          "Redis",
+          "Celery",
+          "Vector Databases",
+          "Kubernetes",
+          "OpenAPI / Swagger",
+          "PyTorch"
+        ],
+        "structuredSkills": [
+          {
+            "id": "sk_01",
+            "name": "Python",
+            "category": "Language",
+            "proficiency": "Expert",
+            "yearsExperience": 6
+          },
+          {
+            "id": "sk_02",
+            "name": "Django REST Framework",
+            "category": "Framework",
+            "proficiency": "Expert",
+            "yearsExperience": 5
+          },
+          {
+            "id": "sk_03",
+            "name": "FastAPI",
+            "category": "Framework",
+            "proficiency": "Advanced",
+            "yearsExperience": 4
+          },
+          {
+            "id": "sk_04",
+            "name": "TypeScript",
+            "category": "Language",
+            "proficiency": "Advanced",
+            "yearsExperience": 4
+          },
+          {
+            "id": "sk_05",
+            "name": "React 19",
+            "category": "Framework",
+            "proficiency": "Advanced",
+            "yearsExperience": 4
+          },
+          {
+            "id": "sk_06",
+            "name": "PostgreSQL",
+            "category": "Database",
+            "proficiency": "Expert",
+            "yearsExperience": 5
+          },
+          {
+            "id": "sk_07",
+            "name": "Redis",
+            "category": "Database",
+            "proficiency": "Advanced",
+            "yearsExperience": 4
+          },
+          {
+            "id": "sk_08",
+            "name": "Celery",
+            "category": "Tools & Architecture",
+            "proficiency": "Expert",
+            "yearsExperience": 5
+          },
+          {
+            "id": "sk_09",
+            "name": "Docker",
+            "category": "Cloud & DevOps",
+            "proficiency": "Advanced",
+            "yearsExperience": 5
+          },
+          {
+            "id": "sk_10",
+            "name": "Kubernetes",
+            "category": "Cloud & DevOps",
+            "proficiency": "Intermediate",
+            "yearsExperience": 3
+          },
+          {
+            "id": "sk_11",
+            "name": "Vector Databases",
+            "category": "AI & ML",
+            "proficiency": "Advanced",
+            "yearsExperience": 3
+          },
+          {
+            "id": "sk_12",
+            "name": "PyTorch",
+            "category": "AI & ML",
+            "proficiency": "Intermediate",
+            "yearsExperience": 2
+          }
+        ],
+        "education": [
+          {
+            "id": "edu_01",
+            "institution": "University of California, Berkeley",
+            "degree": "B.S. in Computer Science & Applied Mathematics",
+            "fieldOfStudy": "Distributed Systems & Machine Learning",
+            "graduationYear": "2020",
+            "gpa": "3.85"
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp_01",
+            "company": "Aether Cloud Systems",
+            "position": "Lead Full-Stack Systems Engineer",
+            "startDate": "2022-03",
+            "endDate": "Present",
+            "isCurrent": true,
+            "description": "Architected high-throughput REST APIs and real-time React web applications serving 1.2M monthly users.",
+            "bullets": [
+              "Architected microservices using Django REST Framework and PostgreSQL, reducing API p99 latency by 38%.",
+              "Implemented Celery and Redis distributed task queues handling 250,000 asynchronous jobs daily with 99.98% uptime.",
+              "Engineered full-stack responsive dashboard using React 19, TypeScript, and Tailwind CSS with sub-100ms interaction latency."
+            ]
+          },
+          {
+            "id": "exp_02",
+            "company": "Nexus Software Labs",
+            "position": "Software Engineer",
+            "startDate": "2020-06",
+            "endDate": "2022-02",
+            "isCurrent": false,
+            "description": "Developed backend microservices, database migrations, and CI/CD pipelines.",
+            "bullets": [
+              "Built Python microservices and optimized PostgreSQL database queries, reducing query execution time by 45%.",
+              "Designed automated integration testing suites achieving 92% code coverage across all core services."
+            ]
+          }
+        ],
+        "projects": [
+          {
+            "id": "proj_01",
+            "title": "CareerSphere AI Platform",
+            "description": "Production-ready AI job discovery and resume optimization portal built with Django, PostgreSQL, and React.",
+            "link": "https://github.com/careersphere/platform",
+            "technologies": [
+              "Python",
+              "Django",
+              "React",
+              "TypeScript",
+              "Docker",
+              "PostgreSQL"
+            ]
+          }
+        ],
+        "certifications": [
+          "AWS Certified Solutions Architect",
+          "CKA: Certified Kubernetes Administrator"
+        ],
+        "savedJobIds": [
+          "job_01",
+          "job_02"
+        ],
+        "autoApplySettings": {
+          "enabled": true,
+          "minMatchScore": 75,
+          "dailyApplicationLimit": 15,
+          "workAuthorization": "Authorized to work in United States without sponsorship",
+          "requiresVisaSponsorship": false,
+          "noticePeriod": "2 Weeks",
+          "preferredLocations": [
+            "Remote",
+            "San Francisco, CA",
+            "New York, NY",
+            "Austin, TX"
+          ],
+          "targetPortals": [
+            "LinkedIn",
+            "Indeed",
+            "Glassdoor",
+            "RemoteOK",
+            "Wellfound",
+            "Greenhouse",
+            "Lever"
+          ],
+          "customCoverNote": "I am excited about this opportunity. With 6+ years specializing in Python, distributed backend architectures, and AI systems, I look forward to contributing immediately to your engineering goals.",
+          "autoTailorEnabled": true
+        }
+      }
+    ],
+    [
+      "user_candidate_02",
+      {
+        "userId": "user_candidate_02",
+        "fullName": "Elena Rostova",
+        "headline": "Staff Backend & Distributed Systems Architect",
+        "phone": "+1 (555) 345-6789",
+        "location": "San Francisco, CA",
+        "bio": "Staff systems engineer with 8+ years designing high-concurrency microservices, Paxos consensus layers, and distributed vector embeddings.",
+        "targetRole": "Staff Distributed Systems Engineer",
+        "experienceYears": 8.5,
+        "desiredSalaryMin": 195000,
+        "workplacePreference": "Remote",
+        "skills": [
+          "Python",
+          "Django REST Framework",
+          "Go",
+          "Kubernetes",
+          "Docker",
+          "Vector Databases",
+          "PostgreSQL",
+          "Redis",
+          "PyTorch",
+          "Distributed Systems"
+        ],
+        "education": [
+          {
+            "id": "edu_02",
+            "institution": "Stanford University",
+            "degree": "M.S. Computer Science",
+            "fieldOfStudy": "Distributed Systems",
+            "graduationYear": "2018",
+            "gpa": "3.92"
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp_03",
+            "company": "Scale Systems",
+            "position": "Staff Backend Engineer",
+            "startDate": "2021-01",
+            "endDate": "Present",
+            "isCurrent": true,
+            "description": "Led data plane team for vector indexing.",
+            "bullets": [
+              "Designed distributed vector index serving 15k QPS with sub-20ms p99 latency.",
+              "Mentored 8 senior engineers and authored RFCs on consensus protocols."
+            ]
+          }
+        ],
+        "projects": [
+          {
+            "id": "proj_02",
+            "title": "VectorMesh",
+            "description": "Open-source distributed embedding store.",
+            "technologies": [
+              "Go",
+              "Python",
+              "Raft",
+              "gRPC"
+            ]
+          }
+        ],
+        "certifications": [
+          "AWS Solutions Architect Professional"
+        ],
+        "savedJobIds": [
+          "job_01"
+        ]
+      }
+    ],
+    [
+      "user_candidate_03",
+      {
+        "userId": "user_candidate_03",
+        "fullName": "Marcus Vance",
+        "headline": "Full-Stack Software Engineer (React 19 & Python)",
+        "phone": "+1 (555) 456-7890",
+        "location": "Seattle, WA (Remote)",
+        "bio": "Full-stack software developer with 5 years building scalable web applications with React 19, TypeScript, and FastAPI.",
+        "targetRole": "Full-Stack Software Engineer",
+        "experienceYears": 5,
+        "desiredSalaryMin": 155000,
+        "workplacePreference": "Remote",
+        "skills": [
+          "Python",
+          "Django REST Framework",
+          "FastAPI",
+          "TypeScript",
+          "React 19",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "education": [
+          {
+            "id": "edu_03",
+            "institution": "University of Washington",
+            "degree": "B.S. Computer Science",
+            "fieldOfStudy": "Software Engineering",
+            "graduationYear": "2021",
+            "gpa": "3.78"
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp_04",
+            "company": "CloudWave",
+            "position": "Senior Full-Stack Developer",
+            "startDate": "2021-07",
+            "endDate": "Present",
+            "isCurrent": true,
+            "description": "Built customer dashboards and REST microservices.",
+            "bullets": [
+              "Built React 19 application frontend with Tailwind CSS.",
+              "Created FastAPI microservices processing 2M events/day."
+            ]
+          }
+        ],
+        "projects": [],
+        "certifications": [],
+        "savedJobIds": [
+          "job_01"
+        ]
+      }
+    ],
+    [
+      "user_candidate_04",
+      {
+        "userId": "user_candidate_04",
+        "fullName": "Priya Sharma",
+        "headline": "AI Infrastructure & MLOps Specialist",
+        "phone": "+1 (555) 567-8901",
+        "location": "Austin, TX (Hybrid)",
+        "bio": "Cloud and AI infrastructure engineer with 4+ years orchestrating Kubernetes clusters and ML model serving pipelines.",
+        "targetRole": "AI Infrastructure Engineer",
+        "experienceYears": 4.5,
+        "desiredSalaryMin": 160000,
+        "workplacePreference": "Hybrid",
+        "skills": [
+          "Python",
+          "Kubernetes",
+          "Docker",
+          "PyTorch",
+          "Vector Databases",
+          "Terraform",
+          "PostgreSQL",
+          "AWS"
+        ],
+        "education": [
+          {
+            "id": "edu_04",
+            "institution": "Georgia Tech",
+            "degree": "B.S. Electrical & Computer Engineering",
+            "fieldOfStudy": "Computing Systems",
+            "graduationYear": "2022"
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp_05",
+            "company": "Apex AI",
+            "position": "MLOps Engineer",
+            "startDate": "2022-06",
+            "endDate": "Present",
+            "isCurrent": true,
+            "description": "Maintained GPU clusters and deployment pipelines.",
+            "bullets": [
+              "Automated Kubernetes Helm charts for model serving.",
+              "Reduced inference latency by 35% with TensorRT."
+            ]
+          }
+        ],
+        "projects": [],
+        "certifications": [
+          "CKA: Certified Kubernetes Administrator"
+        ],
+        "savedJobIds": [
+          "job_01"
+        ]
+      }
+    ],
+    [
+      "user_candidate_05",
+      {
+        "userId": "user_candidate_05",
+        "fullName": "David Kim",
+        "headline": "Principal AI & Machine Learning Architect",
+        "phone": "+1 (555) 678-9012",
+        "location": "San Francisco, CA",
+        "bio": "Machine learning architect with 9+ years delivering production LLM agents, RAG systems, and high-throughput vector infrastructure.",
+        "targetRole": "Senior AI Systems Architect",
+        "experienceYears": 9,
+        "desiredSalaryMin": 210000,
+        "workplacePreference": "Remote",
+        "skills": [
+          "Python",
+          "Django REST Framework",
+          "PyTorch",
+          "Vector Databases",
+          "Kubernetes",
+          "Docker",
+          "RAG Architecture",
+          "PostgreSQL"
+        ],
+        "education": [
+          {
+            "id": "edu_05",
+            "institution": "MIT",
+            "degree": "B.S. & M.Eng. Computer Science",
+            "fieldOfStudy": "Artificial Intelligence",
+            "graduationYear": "2017"
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp_06",
+            "company": "NeuraNet",
+            "position": "Principal Architect",
+            "startDate": "2020-03",
+            "endDate": "Present",
+            "isCurrent": true,
+            "description": "Led core agent orchestration framework.",
+            "bullets": [
+              "Architected multi-agent copilot framework deployed across 50 enterprise clients.",
+              "Scaled vector retrieval engine over 10M embeddings."
+            ]
+          }
+        ],
+        "projects": [],
+        "certifications": [],
+        "savedJobIds": [
+          "job_01"
+        ]
+      }
+    ],
+    [
+      "user_candidate_06",
+      {
+        "userId": "user_candidate_06",
+        "fullName": "Ryan Miller",
+        "headline": "Junior Backend Developer",
+        "phone": "+1 (555) 789-0123",
+        "location": "Denver, CO (Remote)",
+        "bio": "Enthusiastic software developer with 1.5 years experience with Node.js and basic Python scripts.",
+        "targetRole": "Junior Backend Developer",
+        "experienceYears": 1.5,
+        "desiredSalaryMin": 95000,
+        "workplacePreference": "Remote",
+        "skills": [
+          "JavaScript",
+          "Node.js",
+          "Python",
+          "SQLite",
+          "Git"
+        ],
+        "education": [
+          {
+            "id": "edu_06",
+            "institution": "Colorado State University",
+            "degree": "B.S. Information Technology",
+            "fieldOfStudy": "Web Development",
+            "graduationYear": "2025"
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp_07",
+            "company": "Local Soft",
+            "position": "Junior Developer",
+            "startDate": "2025-06",
+            "endDate": "Present",
+            "isCurrent": true,
+            "description": "Assisted in building website backend endpoints.",
+            "bullets": [
+              "Wrote CRUD endpoints in Node.js Express.",
+              "Maintained unit tests."
+            ]
+          }
+        ],
+        "projects": [],
+        "certifications": [],
+        "savedJobIds": [
+          "job_01"
+        ]
+      }
+    ]
+  ],
+  "recruiterSettingsStore": {},
+  "candidateSettingsStore": {
+    "user_candidate_01": {
+      "account": {
+        "email": "candidate@careersphere.ai",
+        "isEmailVerified": true,
+        "name": "Alex Chen",
+        "phone": "+1 (555) 234-5678",
+        "headline": "Senior Full-Stack & Python AI Systems Architect",
+        "timezone": "America/Los_Angeles (PST, UTC-8)",
+        "accountType": "Candidate Premium",
+        "accountStatus": "Active",
+        "createdAt": "2026-09-01T10:00:00Z"
+      },
+      "security": {
+        "twoFactorEnabled": true,
+        "twoFactorMethod": "authenticator",
+        "recoveryCodes": [
+          "CS-8921-4321",
+          "CS-7712-9844",
+          "CS-1092-3321",
+          "CS-5491-0082"
+        ],
+        "lastPasswordChange": "2026-09-15T14:32:00Z",
+        "lastLogin": "2026-10-25T10:08:01.877Z"
+      },
+      "privacy": {
+        "profileVisibility": "recruiters_only",
+        "resumeVisibility": "recruiters",
+        "allowResumeDownload": true,
+        "aiPersonalizationConsent": true,
+        "analyticsConsent": true,
+        "marketingConsent": false,
+        "hidePhoneFromPublic": true,
+        "hideEmailFromPublic": true
+      },
+      "notifications": {
+        "emailJobAlerts": true,
+        "emailApplicationUpdates": true,
+        "emailInterviewReminders": true,
+        "emailRecruiterMessages": true,
+        "emailSecurityAlerts": true,
+        "emailWeeklyDigest": false,
+        "inAppInstantAlerts": true,
+        "inAppSound": true
+      },
+      "aiPreferences": {
+        "enablePersonalization": true,
+        "allowResumeContext": true,
+        "autoGenerateRoadmap": true,
+        "recommendationBias": "skills"
+      },
+      "appearance": {
+        "theme": "dark",
+        "reducedMotion": false,
+        "fontScale": "normal"
+      },
+      "sessions": [
+        {
+          "id": "sess_curr_99",
+          "device": "MacBook Pro 16\" (M3 Max)",
+          "browser": "Chrome 128.0",
+          "os": "macOS Sonoma 14.6",
+          "ip": "192.0.2.14",
+          "location": "San Francisco, CA, US",
+          "isCurrent": true,
+          "createdAt": "2026-10-18T08:00:00Z",
+          "lastActive": "Just now"
+        },
+        {
+          "id": "sess_mob_02",
+          "device": "iPhone 15 Pro",
+          "browser": "Mobile Safari 17.4",
+          "os": "iOS 17.5",
+          "ip": "198.51.100.82",
+          "location": "San Francisco, CA, US",
+          "isCurrent": false,
+          "createdAt": "2026-10-17T19:30:00Z",
+          "lastActive": "12 hours ago"
+        },
+        {
+          "id": "sess_work_03",
+          "device": "Dell XPS 15",
+          "browser": "Firefox 129.0",
+          "os": "Ubuntu 24.04 LTS",
+          "ip": "203.0.113.45",
+          "location": "San Jose, CA, US",
+          "isCurrent": false,
+          "createdAt": "2026-10-14T11:15:00Z",
+          "lastActive": "4 days ago"
+        }
+      ],
+      "devices": [
+        {
+          "id": "dev_01",
+          "deviceName": "Alex’s MacBook Pro",
+          "deviceType": "Laptop / macOS",
+          "trusted": true,
+          "approvalStatus": "Approved",
+          "lastUsed": "Active Now"
+        },
+        {
+          "id": "dev_02",
+          "deviceName": "Alex’s iPhone 15",
+          "deviceType": "Mobile / iOS",
+          "trusted": true,
+          "approvalStatus": "Approved",
+          "lastUsed": "Yesterday"
+        }
+      ],
+      "auditLogs": [
+        {
+          "id": "audit_01",
+          "action": "SUCCESSFUL_LOGIN",
+          "details": "Session started from San Francisco, CA (MacBook Pro)",
+          "timestamp": "2026-10-18T08:00:00Z",
+          "ip": "192.0.2.xx"
+        },
+        {
+          "id": "audit_02",
+          "action": "2FA_VERIFICATION_PASSED",
+          "details": "Authenticator TOTP verified successfully",
+          "timestamp": "2026-10-18T08:00:15Z",
+          "ip": "192.0.2.xx"
+        },
+        {
+          "id": "audit_03",
+          "action": "PRIVACY_SETTINGS_UPDATED",
+          "details": "Profile visibility set to Verified Recruiters Only",
+          "timestamp": "2026-10-15T16:20:00Z",
+          "ip": "192.0.2.xx"
+        }
+      ]
+    }
+  },
+  "candidateNotifications": [
+    {
+      "id": "notif_init_01",
+      "candidateId": "user_candidate_01",
+      "applicationId": "app_01",
+      "jobTitle": "Senior Python & Distributed Systems Engineer",
+      "companyName": "Synthetix Dynamics",
+      "stage": "Interview Scheduled",
+      "title": "Interview Scheduled: Senior Python & Distributed Systems Engineer",
+      "message": "Your Technical Screen for Senior Python & Distributed Systems Engineer with Synthetix Dynamics is confirmed on Google Meet.",
+      "createdAt": "2026-10-09T11:00:00Z",
+      "read": true
+    }
+  ],
+  "recruiterNotifications": [
+    {
+      "id": "rnotif_seed_01",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "new_application",
+      "category": "applications",
+      "title": "New Application: Alex Chen",
+      "message": "Alex Chen applied for \"Senior Python & Distributed Systems Engineer\". Resume ATS score: 92%.",
+      "priority": "high",
+      "isRead": false,
+      "targetModule": "applicants",
+      "targetSubPart": "job_01",
+      "targetId": "app_01",
+      "actionLabel": "Review Application",
+      "metadata": {
+        "jobId": "job_01",
+        "applicationId": "app_01",
+        "candidateName": "Alex Chen"
+      },
+      "createdAt": "2026-10-25T09:53:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_02",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "interview_reschedule_requested",
+      "category": "interviews",
+      "title": "Reschedule Request: Alex Chen",
+      "message": "Alex Chen requested to reschedule the \"System Architecture & Live Coding\" round to tomorrow 2:00 PM EST. Reason: Prior production incident standby.",
+      "priority": "urgent",
+      "isRead": false,
+      "targetModule": "interviews",
+      "targetSubPart": "reschedule-requests",
+      "targetId": "int_01",
+      "actionLabel": "View Schedule",
+      "metadata": {
+        "interviewId": "int_01",
+        "candidateName": "Alex Chen"
+      },
+      "createdAt": "2026-10-25T09:23:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_03",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "offer_accepted",
+      "category": "company",
+      "title": "Offer Accepted: Maya Lin!",
+      "message": "Maya Lin accepted the Principal Infrastructure Architect offer ($215,000 USD). Candidate transitioned to Hired.",
+      "priority": "urgent",
+      "isRead": false,
+      "targetModule": "offers",
+      "targetId": "off_01",
+      "actionLabel": "View Offer",
+      "metadata": {
+        "offerId": "off_01",
+        "candidateName": "Maya Lin"
+      },
+      "createdAt": "2026-10-25T07:08:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_04",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "candidate_withdrawn",
+      "category": "applications",
+      "title": "Application Withdrawn: David Miller",
+      "message": "David Miller withdrew their application for \"High-Throughput Data Infrastructure Engineer\". Reason: Accepted competing offer.",
+      "priority": "normal",
+      "isRead": false,
+      "targetModule": "applicants",
+      "targetSubPart": "job_web_batch_4",
+      "targetId": "app_dm_01",
+      "actionLabel": "View Pipeline",
+      "metadata": {
+        "candidateName": "David Miller"
+      },
+      "createdAt": "2026-10-25T02:08:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_05",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "interview_feedback_submitted",
+      "category": "interviews",
+      "title": "Evaluation Recorded: David Kim",
+      "message": "Technical feedback submitted for Alex Chen: Recommendation is \"Strong Hire\" (Rating 4.8/5).",
+      "priority": "normal",
+      "isRead": true,
+      "readAt": "2026-10-25T00:08:01.842Z",
+      "targetModule": "interviews",
+      "targetId": "int_01",
+      "actionLabel": "Read Scorecard",
+      "metadata": {
+        "interviewId": "int_01",
+        "interviewer": "David Kim"
+      },
+      "createdAt": "2026-10-24T22:08:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_06",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "job_approved",
+      "category": "jobs",
+      "title": "Job Approved: Lead AI Application Engineer",
+      "message": "Admin moderation approved requisition \"Lead AI Application & Retrieval Engineer\". Post is now live and accepting applicants.",
+      "priority": "normal",
+      "isRead": true,
+      "readAt": "2026-10-24T14:08:01.842Z",
+      "targetModule": "jobs",
+      "targetId": "job_web_batch_2",
+      "actionLabel": "Manage Job",
+      "metadata": {
+        "jobId": "job_web_batch_2"
+      },
+      "createdAt": "2026-10-24T10:08:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_07",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "company_verification_approved",
+      "category": "company",
+      "title": "Employer Verification Approved",
+      "message": "Synthetix Dynamics has been verified by platform compliance. Your company has full access to verified job listings.",
+      "priority": "high",
+      "isRead": true,
+      "readAt": "2026-10-23T22:08:01.842Z",
+      "targetModule": "company",
+      "targetSubPart": "verification",
+      "targetId": "comp_synthetix",
+      "actionLabel": "Company Profile",
+      "metadata": {
+        "companyId": "comp_synthetix"
+      },
+      "createdAt": "2026-10-23T10:08:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_08",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "team_invitation_accepted",
+      "category": "company",
+      "title": "Colleague Joined Team: Lisa Wang",
+      "message": "Lisa Wang accepted the invitation and joined the hiring team as Technical Recruiter.",
+      "priority": "normal",
+      "isRead": true,
+      "readAt": "2026-10-23T08:08:01.842Z",
+      "targetModule": "team",
+      "actionLabel": "Team Directory",
+      "metadata": {
+        "memberEmail": "lisa.hiring@synthetix.com"
+      },
+      "createdAt": "2026-10-22T10:08:01.842Z"
+    },
+    {
+      "id": "rnotif_seed_09",
+      "userId": "user_recruiter_01",
+      "companyId": "comp_synthetix",
+      "type": "system_announcement",
+      "category": "system",
+      "title": "n8n Autonomous Multi-Apply Engine Operational",
+      "message": "Candidate multi-apply pipeline is synced with live webhook listener. Automatic inbound parsing and match scoring active.",
+      "priority": "low",
+      "isRead": true,
+      "readAt": "2026-10-22T22:08:01.842Z",
+      "targetModule": "settings",
+      "actionLabel": "System Status",
+      "metadata": {
+        "service": "n8n"
+      },
+      "createdAt": "2026-10-21T10:08:01.842Z"
+    },
+    {
+      "id": "rnotif_horizon_seed",
+      "userId": "user_recruiter_horizon",
+      "companyId": "comp_horizon",
+      "type": "new_application",
+      "category": "applications",
+      "title": "New Application: Horizon Tech Portal",
+      "message": "Application received for Lead Cloud Architect at Horizon Tech.",
+      "priority": "normal",
+      "isRead": false,
+      "targetModule": "applicants",
+      "targetId": "job_horizon_01",
+      "actionLabel": "Review",
+      "createdAt": "2026-10-25T08:08:01.842Z"
+    }
+  ],
+  "jobOffers": [
+    {
+      "id": "off_01",
+      "applicationId": "app_06",
+      "candidateId": "user_candidate_05",
+      "candidateName": "David Kim",
+      "candidateEmail": "david.kim@example.com",
+      "jobId": "job_01",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyId": "comp_synthetix",
+      "companyName": "Synthetix Dynamics",
+      "department": "Frontier Engineering",
+      "employmentType": "Full-time",
+      "baseSalary": 215000,
+      "currency": "USD",
+      "payFrequency": "annual",
+      "bonusOrEquity": "0.45% Equity Stock Options (4-year vesting, 1-year cliff) + $25,000 Signing Bonus",
+      "startDate": "2026-11-15",
+      "expiryDate": "2026-11-05",
+      "workLocation": "San Francisco, CA (Hybrid / Remote Flexible)",
+      "workplaceType": "Remote",
+      "benefits": [
+        "Comprehensive Health, Dental & Vision (100% covered)",
+        "$5,000 Annual Learning & Conference Budget",
+        "401(k) 5% Match with Immediate Vesting",
+        "Flexible Remote Setup Stipend ($2,000)"
+      ],
+      "specialTerms": "Standard confidentiality, proprietary intellectual property assignment, and non-solicitation agreement apply.",
+      "status": "issued",
+      "version": 1,
+      "issuedAt": "2026-10-15T16:00:00Z",
+      "createdAt": "2026-10-15T15:30:00Z",
+      "updatedAt": "2026-10-15T16:00:00Z"
+    },
+    {
+      "id": "off_02",
+      "applicationId": "app_03",
+      "candidateId": "user_candidate_02",
+      "candidateName": "Elena Rostova",
+      "candidateEmail": "elena.rostova@example.com",
+      "jobId": "job_01",
+      "jobTitle": "Senior AI Systems Architect",
+      "companyId": "comp_synthetix",
+      "companyName": "Synthetix Dynamics",
+      "department": "Frontier Engineering",
+      "employmentType": "Full-time",
+      "baseSalary": 200000,
+      "currency": "USD",
+      "payFrequency": "annual",
+      "bonusOrEquity": "0.35% Equity Stock Options + $15,000 Signing Bonus",
+      "startDate": "2026-12-01",
+      "expiryDate": "2026-11-20",
+      "workLocation": "San Francisco, CA (Remote)",
+      "workplaceType": "Remote",
+      "benefits": [
+        "Comprehensive Health, Dental & Vision (100% employer paid)",
+        "401(k) 5% Match",
+        "Annual Learning Stipend"
+      ],
+      "status": "draft",
+      "version": 1,
+      "createdAt": "2026-10-16T11:00:00Z",
+      "updatedAt": "2026-10-16T11:00:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_01",
+      "action": "SYSTEM_BOOTSTRAP",
+      "resourceType": "Infrastructure",
+      "actor": "system.orchestrator@careersphere.internal",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-10-10T22:00:00Z",
+      "status": "SUCCESS",
+      "summary": "Django REST and Express full-stack API initialized with PostgreSQL schema and Gemini AI integration."
+    },
+    {
+      "id": "aud_02",
+      "action": "AUTH_VERIFICATION_PASS",
+      "resourceType": "UserAccount",
+      "actor": "candidate@careersphere.ai",
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-10-10T22:30:00Z",
+      "status": "SUCCESS",
+      "summary": "Email OTP code 684291 verified successfully for candidate account."
+    },
+    {
+      "id": "aud_03",
+      "action": "RESUME_PARSED_VALIDATED",
+      "resourceType": "ResumeEnclave",
+      "actor": "candidate@careersphere.ai",
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-10-10T22:35:00Z",
+      "status": "SUCCESS",
+      "summary": "Alex_Chen_Principal_Engineer_Resume.pdf (248 KB) validated against 10MB limit and parsed."
+    },
+    {
+      "id": "aud_04",
+      "action": "APPLICATION_CONSENT_GRANTED",
+      "resourceType": "AutomationOrchestrator",
+      "actor": "candidate@careersphere.ai",
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-10-10T22:45:00Z",
+      "status": "SUCCESS",
+      "summary": "Candidate granted positive digital consent for submission to Synthetix Dynamics (job_01)."
+    }
+  ]
+}

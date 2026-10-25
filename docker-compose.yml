@@ -1,0 +1,135 @@
+# ==============================================================================
+# CAREERSPHERE AI — MULTI-SERVICE DOCKER COMPOSE CONFIGURATION (PHASE 1)
+# ==============================================================================
+# Orchestrates:
+#  1. postgres: Relational database for accounts, jobs, applications, and audit
+#  2. redis: Broker and cache for asynchronous background tasks
+#  3. backend: Django REST API application server
+#  4. celery_worker: Background processing worker for resume analysis and batch runs
+#  5. frontend: React 19 + Vite + Tailwind CSS web client
+# ==============================================================================
+
+version: "3.9"
+
+services:
+  # ----------------------------------------------------------------------------
+  # PostgreSQL Database Service
+  # ----------------------------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: careersphere-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-careersphere_db}
+      POSTGRES_USER: ${DB_USER:-careersphere_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-careersphere_secure_dev_password_2026}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-careersphere_user} -d ${DB_NAME:-careersphere_db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ----------------------------------------------------------------------------
+  # Redis Message Broker & In-Memory Store
+  # ----------------------------------------------------------------------------
+  redis:
+    image: redis:7.2-alpine
+    container_name: careersphere-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  # ----------------------------------------------------------------------------
+  # Django REST Framework Backend
+  # ----------------------------------------------------------------------------
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: careersphere-backend
+    restart: unless-stopped
+    command: >
+      sh -c "python manage.py wait_for_db &&
+             python manage.py migrate --noinput &&
+             python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+    environment:
+      DJANGO_SETTINGS_MODULE: careersphere_ai.settings.development
+      DJANGO_DEBUG: "True"
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-django-insecure-dev-key-change-in-prod}
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: ${DB_NAME:-careersphere_db}
+      DB_USER: ${DB_USER:-careersphere_user}
+      DB_PASSWORD: ${DB_PASSWORD:-careersphere_secure_dev_password_2026}
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CORS_ALLOWED_ORIGINS: "http://localhost:3000,http://frontend:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # ----------------------------------------------------------------------------
+  # Celery Asynchronous Task Worker
+  # ----------------------------------------------------------------------------
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: careersphere-celery
+    restart: unless-stopped
+    command: celery -A careersphere_ai worker -l INFO
+    volumes:
+      - ./backend:/app
+    environment:
+      DJANGO_SETTINGS_MODULE: careersphere_ai.settings.development
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: ${DB_NAME:-careersphere_db}
+      DB_USER: ${DB_USER:-careersphere_user}
+      DB_PASSWORD: ${DB_PASSWORD:-careersphere_secure_dev_password_2026}
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # ----------------------------------------------------------------------------
+  # React + Vite Frontend Client
+  # ----------------------------------------------------------------------------
+  frontend:
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    container_name: careersphere-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      VITE_API_URL: http://backend:8000
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+    name: careersphere_postgres_data
+  redis_data:
+    name: careersphere_redis_data
